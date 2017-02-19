@@ -1,0 +1,35 @@
+{
+  "name": "webpack-dll-example",
+  "version": "0.0.1",
+  "description": "ts+webpack+dll",
+  "main": "index.js",
+  "scripts": {
+    "server": "node app.js",
+    "build:local": "webpack --config config/local.webpack.conf.js --debug --profile --colors --display-error-details --display-cached",
+    "build:api": "webpack --config config/api.webpack.conf.js --profile --colors --display-error-details --display-cached",
+    "build:vendor": "webpack --config config/vendor.webpack.conf.js --profile --colors --display-error-details --display-cached",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirill3333/webpack-dll-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirill3333/webpack-dll-example/issues"
+  },
+  "homepage": "https://github.com/kirill3333/webpack-dll-example#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "express": "^4.14.1",
+    "lodash": "^4.17.4"
+  }
+}

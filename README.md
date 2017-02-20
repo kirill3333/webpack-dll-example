@@ -1,16 +1,16 @@
 # webpack-dll-example
 
-## Instal dependencies
+### Instal dependencies
 ```npm i```
 
-## Build vendor
+### Build vendor
 ```npm run build:vendor```
 
-## Build API module
+### Build API module
 ```npm run build:api```
 
-## Build main application module
+### Build main application module
 ```npm run build:local```
 
-## Run server
+### Run server
 ```npm run server```

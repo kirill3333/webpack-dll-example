@@ -10,9 +10,9 @@ module.exports = {
   },
   output: {
     filename: './build/api.js',
-    //libraryTarget: 'umd',
+    libraryTarget: 'umd',
     library: 'api',
-    //umdNamedDefine: true
+    umdNamedDefine: true
   },
 
   resolve: {

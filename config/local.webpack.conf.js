@@ -21,12 +21,7 @@ module.exports = {
   },
 
   externals: {
-    'api': {
-      commonjs: "api",
-      commonjs2: "api",
-      amd: "api",
-      root: "api"
-    }
+    'api': 'api'
   },
 
   module: {

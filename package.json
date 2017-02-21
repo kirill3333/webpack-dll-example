@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "server": "node app.js",
+    "local": "node ./build/build.js",
     "build:local": "webpack --config config/local.webpack.conf.js --debug --profile --colors --display-error-details --display-cached",
+    "build:local.node": "webpack --config config/local.node.webpack.conf.js --debug --profile --colors --display-error-details --display-cached",
     "build:api": "webpack --config config/api.webpack.conf.js --profile --colors --display-error-details --display-cached",
+    "build:api.node": "webpack --config config/api.node.webpack.conf.js --profile --colors --display-error-details --display-cached",
     "build:vendor": "webpack --config config/vendor.webpack.conf.js --profile --colors --display-error-details --display-cached",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
